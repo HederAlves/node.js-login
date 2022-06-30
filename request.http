@@ -1,0 +1,28 @@
+POST http://localhost:4002/users
+content-type: application/json
+
+{
+    "name": "Benedita Alves",
+    "password": "123"
+}
+
+###
+
+GET http://localhost:4002/users
+
+###
+
+GET http://localhost:4002/users/20e6d9bc-1a44-4e58-be73-985720771f7d
+
+###
+
+PUT http://localhost:4002/users/20e6d9bc-1a44-4e58-be73-985720771f7d
+content-type: application/json
+
+{
+    "name": "Antonio Alves",
+    "password": "123"
+}
+
+### 
+DELETE http://localhost:4002/users/8f17fce5-fec8-4e77-8673-08b9a17a2746
