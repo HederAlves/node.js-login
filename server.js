@@ -4,7 +4,7 @@ http
     .createServer((request, response) => {
         response.writeHead(200, { 'Content-Type': 'application/json' });
 
-        if(request.url === '/login'){
+        if(request.url === '/register'){
             response.end(JSON.stringify({
                 message: "Rota concluída"
             }))
