@@ -2,7 +2,7 @@ POST http://localhost:4002/users
 content-type: application/json
 
 {
-    "name": "oi",
+    "name": "David",
     "password": "123"
 }
 
