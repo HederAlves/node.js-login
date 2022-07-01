@@ -12,7 +12,7 @@ GET http://localhost:4002/users
 
 ###
 
-GET http://localhost:4002/users/20e6d9bc-1a44-4e58-be73-985720771f7d
+GET http://localhost:4002/users/90b3fdb1-c703-4a9a-88ff-b631eeb68df4
 
 ###
 
