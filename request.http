@@ -2,7 +2,7 @@ POST http://localhost:4002/users
 content-type: application/json
 
 {
-    "name": "Benedita Alves",
+    "name": "oi",
     "password": "123"
 }
 
@@ -25,4 +25,4 @@ content-type: application/json
 }
 
 ### 
-DELETE http://localhost:4002/users/8f17fce5-fec8-4e77-8673-08b9a17a2746
+DELETE http://localhost:4002/users/806b8aee-8171-4917-9c78-41493b079c9a
