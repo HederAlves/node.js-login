@@ -1,9 +1,12 @@
 const express = require("express");
 const { randomUUID } = require("crypto")
 const fs = require("fs")
+const cors = require("cors")
+
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
 let users = [];
