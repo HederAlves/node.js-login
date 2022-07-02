@@ -12,11 +12,10 @@ GET http://localhost:4002/users
 
 ###
 
-GET http://localhost:4002/users/90b3fdb1-c703-4a9a-88ff-b631eeb68df4
-
+GET http://localhost:4002/users/
 ###
 
-PUT http://localhost:4002/users/20e6d9bc-1a44-4e58-be73-985720771f7d
+PUT http://localhost:4002/users/
 content-type: application/json
 
 {
@@ -25,4 +24,4 @@ content-type: application/json
 }
 
 ### 
-DELETE http://localhost:4002/users/806b8aee-8171-4917-9c78-41493b079c9a
+DELETE http://localhost:4002/users/
