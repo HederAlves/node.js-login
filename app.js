@@ -36,7 +36,7 @@ app.post("/users", (request, response) => {
 })
 
 
-app.get("/users",(request, response) => {
+app.get("/users",(_request, response) => {
     return response.json(users)
 })
 
@@ -84,4 +84,4 @@ function usersFile() {
     });
 
 }
-app.listen(4002, () => console.log("deu certo"));
+app.listen(3030, () => console.log("deu certo"));
