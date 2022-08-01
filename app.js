@@ -84,4 +84,4 @@ function usersFile() {
     });
 
 }
-app.listen(3030, () => console.log("deu certo"));
+app.listen(3030, () => console.log("http://localhost:3030/users"));
